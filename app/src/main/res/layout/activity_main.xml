@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_appBackground">
+
+    <Button
+        android:id="@+id/btn_toComplexListDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多种List混排的Demo" />
+
+    <Button
+        android:id="@+id/btn_toListAndGridComplexDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_toComplexListDemo"
+        android:text="List和Grid混排的Demo" />
+
+    <Button
+        android:id="@+id/btn_toMultipleDataDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_toListAndGridComplexDemo"
+        android:text="多个数据源List和Grid混排的Demo" />
+
+</RelativeLayout>
